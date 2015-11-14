@@ -1,0 +1,8 @@
+base:
+  image: denali/debian
+  ports:
+    - "2222:22"
+  environment:
+    CONTAINER_ROOT_PASS: test123
+    AUTHORIZED_KEYS: <yourkey>
+
