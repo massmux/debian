@@ -1,5 +1,5 @@
 base:
-  image: denali/debian
+  image: massmux/debian
   ports:
     - "2222:22"
   environment:
