@@ -1,6 +1,7 @@
 #!/bin/bash
 
 
+echo "Setting SSH Keys"
 if [ "${AUTHORIZED_KEYS}" != "**None**" ]; then
     echo "=> Found authorized keys"
     mkdir -p /root/.ssh
@@ -20,7 +21,7 @@ if [ "${AUTHORIZED_KEYS}" != "**None**" ]; then
     done
 fi
 
-
+echo "Setting root password"
 if [ "${CONTAINER_ROOT_PASS}" != "**None**" ]; then
 	echo "root:$CONTAINER_ROOT_PASS" | chpasswd
 fi

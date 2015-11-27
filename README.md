@@ -26,7 +26,11 @@ base:
     AUTHORIZED_KEYS: <yourkeyhere>
 ```
 
+
+
 ## Contributing
 
 Software developed on Denali group systems. Used Vps in debian OS.
+
 Visit [![Denali](https://www.denali.eu/dena.png)](https://www.denali.eu) for more infos.
+
