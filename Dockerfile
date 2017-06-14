@@ -1,5 +1,8 @@
 FROM debian:8.8
 MAINTAINER Massimo Musumeci <massmux@denali.uk>
+LABEL php.version="8.8"
+LABEL vendor="TRITEMA SA"
+
 
 # Install base packages
 ENV DEBIAN_FRONTEND noninteractive
