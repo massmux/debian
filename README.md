@@ -16,17 +16,6 @@ docker-compose up -d
 ```
 
 
-```bash
-base:
-  image: denali/debian
-  ports:
-    - "2222:22"
-  environment:
-    CONTAINER_ROOT_PASS: test456
-    AUTHORIZED_KEYS: <yourkeyhere>
-```
-
-
 
 ## Contributing
 
