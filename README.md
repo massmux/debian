@@ -7,7 +7,7 @@ This is a docker image with ssh support.
 how to build this image?
 
 ```bash
-docker build -t massmux/debian .
+docker build -t denali/debian .
 ```
 then do this to run it:
 
@@ -18,7 +18,7 @@ docker-compose up -d
 
 ```bash
 base:
-  image: massmux/debian
+  image: denali/debian
   ports:
     - "2222:22"
   environment:

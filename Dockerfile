@@ -1,4 +1,4 @@
-FROM debian:8.2
+FROM debian:8.8
 MAINTAINER Massimo Musumeci <massmux@denali.uk>
 
 # Install base packages

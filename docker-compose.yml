@@ -1,8 +1,10 @@
-base:
-  image: massmux/debian
-  ports:
-    - "2222:22"
-  environment:
-    CONTAINER_ROOT_PASS: yourpass
-    AUTHORIZED_KEYS: '**None**'
-
+version: '2'
+services:
+  base:
+    image: massmux/debian
+    ports:
+      - "2222:22"
+      - "8080:80"
+    environment:
+      CONTAINER_ROOT_PASS: <yourpass>
+      AUTHORIZED_KEYS: <yourkey>
